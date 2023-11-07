@@ -1,0 +1,270 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(219, 209, 209);
+    background-size: 200% 100%;
+    animation: movimiento 10s linear infinite alternate;
+    transition: background-color 0.5s ease-in-out;
+}
+
+
+
+/* Estilos para el encabezado */
+header {
+    background-color: #dd5a5a;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    margin-right: 315px;
+    margin-left: 10px;
+}
+
+.logo {
+    width: 140px;
+    height: 50px;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Georgia", serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+    border: solid 2px rgb(139, 135, 135);
+    background-color: white;
+    width: 400px;
+    padding: 32px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+#agregar-caso h2 {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: "Georgia", serif;
+    text-align: center;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Georgia", serif;
+}
+
+button {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: "Georgia", serif;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+footer {
+    text-align: center;
+    font-family: "Georgia", serif;
+}
+
+.success {
+    text-align: center;
+    color: green;
+    font-size: 40px;
+    font-family: "Georgia", serif;
+}
+
+input:hover,
+select:hover {
+    background-color: rgb(235, 227, 227);
+}
+
+/* Estilos para las etiquetas (labels) */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #d32f2f;
+    font-size: 16px;
+    font-family: "Georgia", serif;
+}
+
+.loginTitulo {
+    text-align: center;
+    color: #b71c1c;
+}
+
+.alert {
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-family: "Georgia", serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: "Arial", sans-serif;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #dd5a5a;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+.Buscar {
+    margin-left: 137px;
+}
+
+.Regresar {
+    margin-left: 109px;
+}
+
+.form-btn2 {
+    margin-left: 120px;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+.Acciones {
+    color: #dd5a5a;
+    font-weight: 600;
+}
+
+/* Estilos para la página de eliminación */
+.eliminarForm {
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.eliminarTitulo {
+    text-align: center;
+    color: #dd5a5a;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.mensaje {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    color: #d32f2f;
+}
+
+.eliminarForm p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.eliminarForm label {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.eliminarForm input[type="radio"] {
+    margin-right: 5px;
+}
+
+.eliminarBtn {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.cancelarBtn {
+    background-color: #b71c1c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* Color verde para el temporizador */
+.temporizador {
+    color: rgb(23, 143, 23);
+}
+
+/* Cambiar a amarillo cuando el tiempo restante es menor o igual a 3600 segundos (1 hora) */
+.temporizador.color-yellow {
+    color: rgb(204, 204, 20);
+}
+
+/* Cambiar a rojo cuando el tiempo restante es igual o menor que 0 segundos */
+.temporizador.color-red {
+    color: red;
+}
+
+.PDF {
+    margin-left: 75px;
+}
